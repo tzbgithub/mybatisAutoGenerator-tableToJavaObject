@@ -1,0 +1,10 @@
+1 修改数据源：generator.properties
+	将数据库的密码修改
+2 修改生成的配置：generator.xml（标记配置一和配置二）
+	配置一：配置生成包的位置
+	配置二：配置我们要映射的数据表数据表
+3 运行Generator类方法
+4 运行结果：
+	mapper文件夹及其接口类
+	model文件夹及其实体类
+	resource下的mapper文件夹及其sql的xml文件
